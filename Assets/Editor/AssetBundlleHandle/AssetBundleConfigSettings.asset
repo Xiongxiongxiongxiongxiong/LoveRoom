@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585011c50be9746c28cb6c2e843163d1, type: 3}
+  m_Name: AssetBundleConfigSettings
+  m_EditorClassIdentifier: 
+  configs:
+  - bundleName: RoomPrefab_WorldRoot_DormRoom
+    AssetPath: Assets/RoomPrefab/WorldRoot_DormRoom.prefab
+    AssetAddress: WorldRoot_DormRoom
+    GUID: db49daac62bfab9418fc437e22a1f3aa
+    SubAssetPath: []
+    isFold: 0
+    PreLoad: 0
+  - bundleName: RoomPrefab_WorldRoot_LoveRoom
+    AssetPath: Assets/RoomPrefab/WorldRoot_LoveRoom.prefab
+    AssetAddress: WorldRoot_LoveRoom
+    GUID: 84a296a22728ce842b3deaa82536a4e1
+    SubAssetPath: []
+    isFold: 0
+    PreLoad: 0
+  - bundleName: RoomPrefab_WorldRoot_MerryGoRound
+    AssetPath: Assets/RoomPrefab/WorldRoot_MerryGoRound.prefab
+    AssetAddress: WorldRoot_MerryGoRound
+    GUID: 9ff25a5766bc3b245badf5fb12e21f09
+    SubAssetPath: []
+    isFold: 0
+    PreLoad: 0
+  - bundleName: MainRoom_Scenes_MainRoomScene
+    AssetPath: Assets/MainRoom/Scenes/MainRoomScene.unity
+    AssetAddress: MainRoomScene
+    GUID: 031893c57206e1e429f43350f1114687
+    SubAssetPath: []
+    isFold: 0
+    PreLoad: 0
+  - bundleName: Rooms_LoveRoom_Scenes_LoveRoom_Final
+    AssetPath: Assets/Rooms/LoveRoom/Scenes/LoveRoom_Final.unity
+    AssetAddress: LoveRoom_Final
+    GUID: ae8a91f9107306645a432b99c00bbc8b
+    SubAssetPath: []
+    isFold: 0
+    PreLoad: 0
+  - bundleName: Rooms_Merry_go_round_Scenes_merry_goround_final
+    AssetPath: Assets/Rooms/Merry_go_round/Scenes/merry_goround_final.unity
+    AssetAddress: merry_goround_final
+    GUID: d4ca268428587174a97cecd08df3cf89
+    SubAssetPath: []
+    isFold: 0
+    PreLoad: 0
+  - bundleName: io.jagat.artlogic_RendererPipline_JagatRoomRender Pipeline Asset
+    AssetPath: Packages/io.jagat.artlogic/RendererPipline/JagatRoomRender Pipeline
+      Asset.asset
+    AssetAddress: RPAsset
+    GUID: 4a5f163c76afa804a9cf982c8c04fdc9
+    SubAssetPath: []
+    isFold: 0
+    PreLoad: 0
+  model: 0

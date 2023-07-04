@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bd75bf4553f264c9eed47663277e1e, type: 3}
+  m_Name: asset_list_show
+  m_EditorClassIdentifier: 
+  abNameLengthMax: 7
+  hashLengthMax: 6
+  autoSliceBundleOnBuild: 1
+  editable: 0
+  singleBundlefileSizeMin: 256
+  singleBundlefileSizeMax: 1024
+  useCoundMin: 2
+  objExt:
+  - .fbx
+  - .jpeg
+  - .png
+  - .spriteatlas
+  - .tga
+  - .exr
+  - .shadergraph
+  - .shader
+  - .mat
+  flags:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  options: 32
+  addressList:
+  - address: room_class
+    guid: 179c70b7c2f07de4d8b90f9ca4763934
+    flags: 0
+    active: 1
+    split: 0
+  - address: room_dorm
+    guid: db49daac62bfab9418fc437e22a1f3aa
+    flags: 0
+    active: 1
+    split: 0
+  - address: room_love
+    guid: ca0bc6797fd93b54bbd07ff74fe7a78b
+    flags: 0
+    active: 1
+    split: 0
+  - address: room_merry
+    guid: a7a2f9e4c28661644a6d5c74e0e548c2
+    flags: 0
+    active: 1
+    split: 0
+  - address: sub_class
+    guid: 3fd261f1b48d3a449afd0229a6af0114
+    flags: 0
+    active: 1
+    split: 0
+  - address: sub_dorm
+    guid: b71fb3c90a444ef4d8353b0dd5ed2f9f
+    flags: 0
+    active: 1
+    split: 0
+  - address: sub_empty
+    guid: cac98035b4d5c8146bc52bbde0adc1b9
+    flags: 0
+    active: 1
+    split: 0
+  - address: sub_love
+    guid: d9b7e5924343284418c4acd6587358bc
+    flags: 0
+    active: 1
+    split: 0
+  - address: sub_lover
+    guid: eac0ae95e9ab9804da3d838c22c7712c
+    flags: 0
+    active: 1
+    split: 0
+  - address: sub_merry
+    guid: 48855a430a4f3744eada36c06da019b2
+    flags: 0
+    active: 1
+    split: 0
+  - address: sub_muma
+    guid: 374fc73edda7c65478952db287325242
+    flags: 0
+    active: 1
+    split: 0
+  - address: mainroomscene_final
+    guid: 031893c57206e1e429f43350f1114687
+    flags: 0
+    active: 1
+    split: 0
+  - address: loveroom_final
+    guid: 6d0ed4d111a3c0446a367cd2f28c48f6
+    flags: 0
+    active: 1
+    split: 0
+  - address: muma_final
+    guid: d4ca268428587174a97cecd08df3cf89
+    flags: 0
+    active: 1
+    split: 0
+  - address: classroom_final
+    guid: df65dea15d9878d45b1997c6732c6d32
+    flags: 0
+    active: 1
+    split: 0
+  - address: metal_classroom
+    guid: 3079edd99f0549a4c8ef98f697f81e02
+    flags: 0
+    active: 1
+    split: 0
+  - address: metal_loveroom
+    guid: 4214df98df23ca14bb9f9b804e59ec87
+    flags: 0
+    active: 1
+    split: 0
+  - address: metal_muma
+    guid: 1621e585b16a06f40a73b0454a6fb245
+    flags: 0
+    active: 1
+    split: 0
+  refBundleList: []

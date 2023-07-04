@@ -1,0 +1,78 @@
+## 项目名称 ：<font color=red size=3> 好友纪念册房间 </font>
+
+## 运行条件和相关依赖（非常重要）
+* 条件一 项目需要使用URP渲染管线，否则所有shader会hug红。
+* 条件二 场景需要带有UserController 脚本，此脚本能实现旋转缩放屏幕滑动等功能。
+* 条件三 InteractiveRoom_****Room 脚本，继承自InteractiveRoom父类。用于添加角色特效动画自发光效果等。
+* 条件四 场景添加人物位置在场景ActorGeneratePositions脚本上。 
+* 条件五 渲染管线上必须挂载RoomLutRenderFeature，使用这个算然模式否则效果会出错。Feature下的 settings.renderPassEvent 选择Enum:Before Rendering Post Processing，settings.RoomLutShader选择RoomLutShader ，LutTex 使用LUT_mid。
+
+## <font color=red size=3.5>运行说明</font>
+ 建议直接使用RoomPrefab 文件夹下的每个场景预制体文件。可直接实例化场景预制体在任意场景直接使用。无需添加任何其他组件。
+ 单场景运行单独场景Scenes文件夹下的的工程文件。
+ 主界面的场景可直接运行MenuScene/Scenes文件夹下的场景工程文件。
+## 协作者
+添加角色生成的位置可调用发方法
+<p><code> 
+     Vector3 pos= GameObject.FindObjectOfType<ActorGeneratePositions>().GetGeneratePosition(0);
+</code></p>
+添加角色模型可调用
+<p><code>   
+   btn_Add.onClick.AddListener(() => {
+           var room= GameObject.FindObjectOfType<InteractiveRoom>();
+            room.AddPlayer(null);
+        });
+</code></p>
+删除角色模型可调用
+<p><code>
+  btn_Del.onClick.AddListener(() => {
+
+            var room = GameObject.FindObjectOfType<InteractiveRoom>();
+            room.RemovePlayer("");
+
+        });
+</code></p>
+> 项目文件介绍
+>Common文件夹包含所有的场景公用资源
+* ColorSelector        文件夹为色板shader，色板的材质material文件，色板的脚本文件，色板的UI图片。
+* Combine              文件夹为模型合并后所使用的material文件和shader。
+* LUT                  文件夹为，场景后期效果所使用的lut图，和后期效果参数。
+* RendererPipline      文件夹为渲染管线资源，后期lut的shader和脚本。
+* SbinPBR_USG          文件夹为所有需要使用的shader资源，包括：Avatar3D_New文件夹-角色shader，Object_Painter文件夹-场景shader，Includes文件夹-shader的引用文件，SbinSubGraph文件夹-shader的子节点等。
+* Script               文件夹为 房间所需要使用到的各类脚本文件。DynamicBone文件夹为动态骨骼的脚本文件。Test文件夹为测试时期所使用的测试脚本，正式版本无需使用。
+>Editor 文件夹为场景制作时期所需要使用到的脚本工具。
+* AssetBundlleHandle   文件夹是bundle包所需要是用的脚本文件。
+>DormRoom 文件夹是<font color=red size=3> 宿舍场景文件 </font>
+* lightings            场景灯光渲染时需用到的灯光渲染参数等。
+* Materials            场景所用到的所有材质球文件。
+* model                场景所用到的说有模型网格文件。
+* Prefabs              场景所需要用到的预制体文件。
+* scene                场景工程文件，DormRoom文件夹为此场景所使用到的场景光照贴图。
+* texture              宿舍场景所使用到的所有贴图文件。
+>LoveRoom 文件夹是<font color=red size=3> 情侣房间场景文件 </font>
+* FX                   场景所使用到的特效文件。包括：FX_Materials-特效材质球文件，FX_Model-特效模型文件，FX_Prefbs-特效预制体文件，FX_shader-特效的shader，FX_Texture-特效的贴图文件。
+* Materials_URP        场景所使用到的所有材质球文件。
+* Meshes               场景所使用的模型网格文件。
+* Player               场景测试时所使用的角色文件。包括预制体，贴图，模型，材质球等。
+* Prefabs              场景所用到的预制体
+* Scenes               场景所用到的工程文件。LoveRoom_Final-为场景光照贴图。
+* Texture              场景所用到的所有贴图纹理文件。
+>MenuScene 文件夹是<font color=red size=3> 主界面场景文件 </font>
+* Materials            主界面所使用的材质球文件
+* Mesh                 主界面所使用的模型网格文件
+* Prefabs              主界面的预制体房间文件
+* Scenes               主界面的工程文件
+* Texture              主界面所使用到的贴图文件
+>Merry_go_round  文件夹是<font color=red size=3> 旋转木马场景文件 </font>
+* FX                   场景所使用到的特效文件。包括：FX_Materials-特效材质球文件，FX_Model-特效模型文件，FX_Prefbs-特效预制体文件，FX_shader-特效的shader，FX_Texture-特效的贴图文件。
+* Materials_URP        场景所使用到的所有材质球文件。
+* Meshes               场景所使用的模型网格文件。
+* Player               场景测试时所使用的角色文件。包括预制体，贴图，模型，材质球等。
+* Prefabs              场景所用到的预制体
+* Scenes               场景所用到的工程文件。merry_goround_final-为场景光照贴图。
+* Texture              场景所用到的所有贴图纹理文件。
+>RoomPrefab 现有的房间预制体文件。可直接使用。
+>WorkSpace 主界面工作文件夹。包括主界面的清水房，主界面的情侣房间，旋转木马等小房间的工程文件。
+* InitRoom_Bake        主界面的清水房光照贴图文件夹。
+* LoveRoom_CreateCubemap 主界面情侣房间的的光照贴图文件夹。
+* Merry_go_round_initroom 主界面旋转木马的光照贴图文件夹。

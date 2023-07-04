@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9942cf57f45e54d438a5d9d9b62e0b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iOS:
+    AutoUpVersion: 0
+    BuildingVersion: 1.001
+    buildIncludeBundles:
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_runtime_data1.bundle
+      FileName: com.unity.render-pipelines.universal_runtime_data1_f09efb8f6c7c.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_runtime_materials1.bundle
+      FileName: com.unity.render-pipelines.universal_runtime_materials1_4f3acf413e8f.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_shaders1.bundle
+      FileName: com.unity.render-pipelines.universal_shaders1_fd02e830dc8a.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_shaders_debug1.bundle
+      FileName: com.unity.render-pipelines.universal_shaders_debug1_efbf6e80ebc3.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_shaders_postprocessing1.bundle
+      FileName: com.unity.render-pipelines.universal_shaders_postprocessing1_adb20e0529ce.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_shaders_postprocessing2.bundle
+      FileName: com.unity.render-pipelines.universal_shaders_postprocessing2_71bf257aaa70.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_shaders_utils1.bundle
+      FileName: com.unity.render-pipelines.universal_shaders_utils1_bc8a30501363.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_shaders_xr1.bundle
+      FileName: com.unity.render-pipelines.universal_shaders_xr1_86d372b8979d.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_textures_bluenoise16_l1.bundle
+      FileName: com.unity.render-pipelines.universal_textures_bluenoise16_l1_d8d89ea40e52.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_textures_bluenoise16_l2.bundle
+      FileName: com.unity.render-pipelines.universal_textures_bluenoise16_l2_0ac2b8d12867.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_textures_bluenoise16_l3.bundle
+      FileName: com.unity.render-pipelines.universal_textures_bluenoise16_l3_592ad9841dc9.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_textures_bluenoise16_l4.bundle
+      FileName: com.unity.render-pipelines.universal_textures_bluenoise16_l4_086c764210e0.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_textures_filmgrain1.bundle
+      FileName: com.unity.render-pipelines.universal_textures_filmgrain1_cb779ce22943.bundle
+    - Include: 0
+      BundleName: com.unity.render-pipelines.universal_textures_smaa1.bundle
+      FileName: com.unity.render-pipelines.universal_textures_smaa1_3fc168c717ff.bundle
+    - Include: 0
+      BundleName: common_colorselector1.bundle
+      FileName: common_colorselector1_cfdb674b2ad1.bundle
+    - Include: 0
+      BundleName: common_colorselector_material1.bundle
+      FileName: common_colorselector_material1_b2da09825546.bundle
+    - Include: 0
+      BundleName: common_colorselector_shaders1.bundle
+      FileName: common_colorselector_shaders1_c96505e80fff.bundle
+    - Include: 0
+      BundleName: common_colorselector_sprites1.bundle
+      FileName: common_colorselector_sprites1_26457a8d970c.bundle
+    - Include: 0
+      BundleName: io.jagat.artlogic_rendererpipline1.bundle
+      FileName: io.jagat.artlogic_rendererpipline1_2fadac26c056.bundle
+    - Include: 0
+      BundleName: io.jagat.artlogic_rendererpipline_jagatroomrender pipeline asset.bundle
+      FileName: io.jagat.artlogic_rendererpipline_jagatroomrender pipeline asset_0d84d7608a6e.bundle
+    - Include: 0
+      BundleName: io.jagat.artlogic_rendererpipline_lut1.bundle
+      FileName: io.jagat.artlogic_rendererpipline_lut1_cf9ef1bb3aac.bundle
+    - Include: 0
+      BundleName: io.jagat.artlogic_shaders_object_painter1.bundle
+      FileName: io.jagat.artlogic_shaders_object_painter1_b80866f43c75.bundle
+    - Include: 0
+      BundleName: io.jagat.artlogic_shaders_renderfeatures1.bundle
+      FileName: io.jagat.artlogic_shaders_renderfeatures1_6402d81747c1.bundle
+    - Include: 0
+      BundleName: io.jagat.artlogic_shaders_sbinsubgraph1.bundle
+      FileName: io.jagat.artlogic_shaders_sbinsubgraph1_17e2a18220ef.bundle
+    - Include: 0
+      BundleName: mainroom_materials1.bundle
+      FileName: mainroom_materials1_808d8b7ba4fe.bundle
+    - Include: 0
+      BundleName: mainroom_materials2.bundle
+      FileName: mainroom_materials2_08637193917e.bundle
+    - Include: 0
+      BundleName: mainroom_materials3.bundle
+      FileName: mainroom_materials3_630224f1360c.bundle
+    - Include: 0
+      BundleName: mainroom_mesh1.bundle
+      FileName: mainroom_mesh1_9ac536437802.bundle
+    - Include: 0
+      BundleName: mainroom_mesh_materials1.bundle
+      FileName: mainroom_mesh_materials1_6e71b1cd7f6d.bundle
+    - Include: 0
+      BundleName: mainroom_mesh_materials2.bundle
+      FileName: mainroom_mesh_materials2_47913fc70511.bundle
+    - Include: 0
+      BundleName: mainroom_prefabs1.bundle
+      FileName: mainroom_prefabs1_022f0f227547.bundle
+    - Include: 0
+      BundleName: mainroom_scenes_mainroomscene.bundle
+      FileName: mainroom_scenes_mainroomscene_d49fe77bb85e.bundle
+    - Include: 0
+      BundleName: mainroom_texture1.bundle
+      FileName: mainroom_texture1_26820895f432.bundle
+    - Include: 0
+      BundleName: mainroom_texture2.bundle
+      FileName: mainroom_texture2_d20eb062a9f1.bundle
+    - Include: 0
+      BundleName: roomprefab_worldroot_dormroom.bundle
+      FileName: roomprefab_worldroot_dormroom_3b0bfa67a604.bundle
+    - Include: 0
+      BundleName: roomprefab_worldroot_loveroom.bundle
+      FileName: roomprefab_worldroot_loveroom_bdc6ffd15300.bundle
+    - Include: 0
+      BundleName: roomprefab_worldroot_merrygoround.bundle
+      FileName: roomprefab_worldroot_merrygoround_94de2c337b08.bundle
+    - Include: 0
+      BundleName: rooms_dormroom_materials1.bundle
+      FileName: rooms_dormroom_materials1_e12acc10dec3.bundle
+    - Include: 0
+      BundleName: rooms_dormroom_materials2.bundle
+      FileName: rooms_dormroom_materials2_0f8311c4518a.bundle
+    - Include: 0
+      BundleName: rooms_dormroom_model1.bundle
+      FileName: rooms_dormroom_model1_621a7199cfc2.bundle
+    - Include: 0
+      BundleName: rooms_dormroom_model2.bundle
+      FileName: rooms_dormroom_model2_c51636e28ec5.bundle
+    - Include: 0
+      BundleName: rooms_dormroom_scene_dormroom1.bundle
+      FileName: rooms_dormroom_scene_dormroom1_ca96f15b3711.bundle
+    - Include: 0
+      BundleName: rooms_dormroom_texture1.bundle
+      FileName: rooms_dormroom_texture1_bfe6da434d4f.bundle
+    - Include: 0
+      BundleName: rooms_dormroom_texture2.bundle
+      FileName: rooms_dormroom_texture2_796727785bf4.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_materials1.bundle
+      FileName: rooms_loveroom_fx_fx_materials1_b2c483d87594.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_materials2.bundle
+      FileName: rooms_loveroom_fx_fx_materials2_59a2059a079d.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_model1.bundle
+      FileName: rooms_loveroom_fx_fx_model1_0626f44ebe05.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_prefbs1.bundle
+      FileName: rooms_loveroom_fx_fx_prefbs1_c92ed9aa1436.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_shader1.bundle
+      FileName: rooms_loveroom_fx_fx_shader1_92eb98816e5f.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_texture_fire1.bundle
+      FileName: rooms_loveroom_fx_fx_texture_fire1_1986cdfd3a4d.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_texture_glow1.bundle
+      FileName: rooms_loveroom_fx_fx_texture_glow1_aa16a787c705.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_texture_lizi1.bundle
+      FileName: rooms_loveroom_fx_fx_texture_lizi1_49d3b055b542.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_texture_object1.bundle
+      FileName: rooms_loveroom_fx_fx_texture_object1_cd478243fe19.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_texture_start1.bundle
+      FileName: rooms_loveroom_fx_fx_texture_start1_097d5d69023f.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_texture_start2.bundle
+      FileName: rooms_loveroom_fx_fx_texture_start2_2601f9fe4713.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_fx_fx_texture_wenli1.bundle
+      FileName: rooms_loveroom_fx_fx_texture_wenli1_0feb7f19538e.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_materials_urp1.bundle
+      FileName: rooms_loveroom_materials_urp1_8a2ceecf1961.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_materials_urp2.bundle
+      FileName: rooms_loveroom_materials_urp2_662af4c51b19.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_meshes1.bundle
+      FileName: rooms_loveroom_meshes1_c00bdad10713.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_meshes2.bundle
+      FileName: rooms_loveroom_meshes2_918cef6fc963.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_meshes3.bundle
+      FileName: rooms_loveroom_meshes3_4118484ff5cd.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_meshes_materials1.bundle
+      FileName: rooms_loveroom_meshes_materials1_ca09ab38d42c.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_meshes_materials2.bundle
+      FileName: rooms_loveroom_meshes_materials2_025386ca320e.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_scenes_loveroom_final.bundle
+      FileName: rooms_loveroom_scenes_loveroom_final_cd66fe35eae8.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_scenes_loveroom_final1.bundle
+      FileName: rooms_loveroom_scenes_loveroom_final1_64c72c3a7ef7.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_texture1.bundle
+      FileName: rooms_loveroom_texture1_33dbc4774755.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_texture2.bundle
+      FileName: rooms_loveroom_texture2_cbcea66302d0.bundle
+    - Include: 0
+      BundleName: rooms_loveroom_texture3.bundle
+      FileName: rooms_loveroom_texture3_016d4e00d50d.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_animation1.bundle
+      FileName: rooms_merry_go_round_fx_fx_animation1_480d13fd4b5c.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_materials1.bundle
+      FileName: rooms_merry_go_round_fx_fx_materials1_beb844b11f14.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_model1.bundle
+      FileName: rooms_merry_go_round_fx_fx_model1_87a3219beaa8.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_prefbs1.bundle
+      FileName: rooms_merry_go_round_fx_fx_prefbs1_640c024b893d.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_shaders1.bundle
+      FileName: rooms_merry_go_round_fx_fx_shaders1_69ab95751c5e.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_texture1.bundle
+      FileName: rooms_merry_go_round_fx_fx_texture1_7066462d4af8.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_texture_mask1.bundle
+      FileName: rooms_merry_go_round_fx_fx_texture_mask1_8e434645308b.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_texture_object1.bundle
+      FileName: rooms_merry_go_round_fx_fx_texture_object1_b7c6818f4a16.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_fx_fx_texture_wenli1.bundle
+      FileName: rooms_merry_go_round_fx_fx_texture_wenli1_b25f85038aa5.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_material1.bundle
+      FileName: rooms_merry_go_round_material1_d6877135ec84.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_mesh1.bundle
+      FileName: rooms_merry_go_round_mesh1_37e637c9f122.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_mesh_materials1.bundle
+      FileName: rooms_merry_go_round_mesh_materials1_46aa91f7e485.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_scenes1.bundle
+      FileName: rooms_merry_go_round_scenes1_c2db5c8a102d.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_scenes_merry_goround_final.bundle
+      FileName: rooms_merry_go_round_scenes_merry_goround_final_b0bbb16249d3.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_scenes_merry_goround_final1.bundle
+      FileName: rooms_merry_go_round_scenes_merry_goround_final1_e18d1b5bc114.bundle
+    - Include: 0
+      BundleName: rooms_merry_go_round_texture1.bundle
+      FileName: rooms_merry_go_round_texture1_18c6cc196316.bundle
+    - Include: 0
+      BundleName: workspace_initroom_bake1.bundle
+      FileName: workspace_initroom_bake1_11a6a8297162.bundle
+    - Include: 0
+      BundleName: workspace_loveroom_createcubemap1.bundle
+      FileName: workspace_loveroom_createcubemap1_1434723ae0b4.bundle
+    - Include: 0
+      BundleName: workspace_merry_go_round_initroom1.bundle
+      FileName: workspace_merry_go_round_initroom1_e312b09af520.bundle
+    - Include: 0
+      BundleName: workspace_world__final_love1.bundle
+      FileName: workspace_world__final_love1_0040ecbd01d1.bundle
+    LastBuildedVersion: 1.001
+    OldVersionList:
+    - 1.001
+  Android:
+    AutoUpVersion: 0
+    BuildingVersion: 1.001
+    buildIncludeBundles: []
+    LastBuildedVersion: 
+    OldVersionList: []
+  WebGL:
+    AutoUpVersion: 0
+    BuildingVersion: 1.001
+    buildIncludeBundles: []
+    LastBuildedVersion: 
+    OldVersionList: []
+  StandaloneOSX:
+    AutoUpVersion: 0
+    BuildingVersion: 1.001
+    buildIncludeBundles: []
+    LastBuildedVersion: 
+    OldVersionList: []
+  StandaloneWindows:
+    AutoUpVersion: 0
+    BuildingVersion: 1.001
+    buildIncludeBundles: []
+    LastBuildedVersion: 
+    OldVersionList: []
